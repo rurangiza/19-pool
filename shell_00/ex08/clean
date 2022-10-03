@@ -1,0 +1,1 @@
+find . -name "*~" -print0 -or -name "#*" -and -name "*#" -print0 | xargs -I {} -0 rm -v "{}"
